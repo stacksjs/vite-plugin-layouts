@@ -1,4 +1,16 @@
 
+## v0.1.1...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.1...main)
+
+### 🏡 Chore
+
+- Add tsconfig to package ([9bd63af](https://github.com/stacksjs/vite-plugin-layouts/commit/9bd63af))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.1.0...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.0...main)
