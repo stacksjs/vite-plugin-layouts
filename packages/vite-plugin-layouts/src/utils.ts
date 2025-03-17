@@ -1,6 +1,6 @@
 import { resolve } from 'node:path'
 import Debug from 'debug'
-import fg from 'fast-glob'
+import { globSync } from 'tinyglobby'
 
 export function extensionsToGlob(extensions: string[]): string {
   return extensions.length > 1 ? `{${extensions.join(',')}}` : extensions[0] || ''
@@ -25,7 +25,7 @@ export function resolveDirs(dirs: string | string[] | null, root: string): strin
 
   for (const dir of dirsArray) {
     if (dir.includes('**')) {
-      const matches = fg.sync(dir, { onlyDirectories: true })
+      const matches = globSync(dir, { onlyDirectories: true })
       for (const match of matches)
         dirsResolved.push(normalizePath(resolve(root, match)))
     }

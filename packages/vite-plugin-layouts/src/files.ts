@@ -1,5 +1,5 @@
 import type { ResolvedOptions } from './types'
-import fg from 'fast-glob'
+import { glob } from 'tinyglobby'
 import { debug, extensionsToGlob } from './utils'
 
 /**
@@ -14,7 +14,7 @@ export async function getFilesFromPath(path: string, options: ResolvedOptions): 
   const ext = extensionsToGlob(extensions)
   debug(extensions)
 
-  const files = await fg(`**/*.${ext}`, {
+  const files = await glob(`**/*.${ext}`, {
     ignore: ['node_modules', '.git', '**/__*__/*', ...exclude],
     onlyFiles: true,
     cwd: path,
