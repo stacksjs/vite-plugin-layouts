@@ -1,4 +1,17 @@
 
+## v0.1.0...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.0...main)
+
+### 🏡 Chore
+
+- Minor adjustments ([c2d13b9](https://github.com/stacksjs/vite-plugin-layouts/commit/c2d13b9))
+- Remove unused tests ([1f230be](https://github.com/stacksjs/vite-plugin-layouts/commit/1f230be))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## ...main
 
 
