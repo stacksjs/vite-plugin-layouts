@@ -1,4 +1,16 @@
 
+## v0.1.2...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.2...main)
+
+### 🏡 Chore
+
+- Adjust scripts ([51770ad](https://github.com/stacksjs/vite-plugin-layouts/commit/51770ad))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.1.1...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.1...main)
