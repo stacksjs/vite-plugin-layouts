@@ -1,0 +1,96 @@
+{
+  "name": "vite-plugin-layouts",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Router based layout plugin for Vite and Vue",
+  "author": "Chris Breuer <chris@stacksjs.org>",
+  "license": "MIT",
+  "homepage": "https://github.com/stacksjs/vite-plugin-layouts#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stacksjs/vite-plugin-layouts.git"
+  },
+  "bugs": {
+    "url": "https://github.com/stacksjs/vite-plugin-layouts/issues"
+  },
+  "keywords": [
+    "layouts",
+    "vite-plugin-layouts",
+    "vite-plugin-layouts",
+    "vue",
+    "vite",
+    "plugin",
+    "typescript"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./client": {
+      "types": "./client.d.ts"
+    },
+    "./*": {
+      "import": "./dist/*"
+    }
+  },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist"],
+  "scripts": {
+    "build": "bun --bun build.ts",
+    "lint": "bunx --bun eslint .",
+    "lint:fix": "bunx --bun eslint . --fix",
+    "fresh": "bunx rimraf node_modules/ bun.lock && bun i",
+    "changelog": "bunx changelogen --output CHANGELOG.md",
+    "prepublishOnly": "bun --bun run build",
+    "release": "bun run changelog && bunx bumpp package.json --all",
+    "test": "bun test",
+    "typecheck": "bun --bun tsc --noEmit",
+    "dev:docs": "bun --bun vitepress dev docs",
+    "build:docs": "bun --bun vitepress build docs",
+    "preview:docs": "bun --bun vitepress preview docs",
+    "example:dev": "bun --bun -C examples/spa run dev",
+    "example:build": "bun --bun -C examples/spa run build",
+    "example:serve": "bun --bun -C examples/spa run serve",
+    "example:build-ssg": "bun --bun -C examples/ssg run build",
+    "example:serve-ssg": "bun --bun -C examples/ssg run serve"
+  },
+  "peerDependencies": {
+    "vite": "^6.0.0",
+    "vue": "^3.5.0",
+    "vue-router": "^4.5.0"
+  },
+  "dependencies": {
+    "debug": "^4.4.0",
+    "tinyglobby": "^0.2.12"
+  },
+  "devDependencies": {
+    "@stacksjs/docs": "^0.69.3",
+    "@stacksjs/eslint-config": "^4.8.2-beta.1",
+    "@types/bun": "^1.2.5",
+    "bumpp": "^10.1.0",
+    "bun-plugin-dtsx": "^0.21.9",
+    "changelogen": "^0.6.1",
+    "lint-staged": "^15.5.0",
+    "simple-git-hooks": "^2.11.1",
+    "typescript": "^5.8.2",
+    "unocss": "^66.0.0",
+    "vite": "^6.2.1",
+    "vite-plugin-vue-devtools": "^7.7.2"
+  },
+  "overrides": {
+    "unconfig": "0.3.10"
+  },
+  "simple-git-hooks": {
+    "pre-commit": "bunx lint-staged"
+  },
+  "lint-staged": {
+    "*.{js,ts}": "bunx eslint . --fix"
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ]
+}
