@@ -1,4 +1,16 @@
 
+## v0.1.3...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.3...main)
+
+### 🏡 Chore
+
+- Use tinyglobby ([c9a0c9e](https://github.com/stacksjs/vite-plugin-layouts/commit/c9a0c9e))
+
+### ❤️ Contributors
+
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.1.2...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.2...main)
