@@ -6,7 +6,7 @@ import Icons from 'unplugin-icons/vite'
 import Components from 'unplugin-vue-components/vite'
 import { defineConfig } from 'vite'
 import VueDevTools from 'vite-plugin-vue-devtools'
-import Dotenvx from '../../src'
+// import Layouts from '../../src'
 
 export default defineConfig({
   envPrefix: 'FRONTEND_',
@@ -52,12 +52,9 @@ export default defineConfig({
 
     UnoCSS(resolve(__dirname, 'unocss.config.ts')),
 
-    Dotenvx({
-      verbose: true,
-      path: ['.env'],
-      envKeysFile: '.env.keys',
-      overload: false,
-    }),
+    // Layouts({
+    //   //
+    // }),
 
     VueDevTools(),
     // Inspect(),
