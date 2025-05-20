@@ -37,6 +37,7 @@ export default defineConfig({
     VueRouter({
       extensions: ['.vue', '.md'],
       dts: 'src/typed-router.d.ts',
+      routesFolder: 'src/pages',
     }),
 
     // https://github.com/JohnCampionJr/vite-plugin-vue-layouts
@@ -141,10 +142,10 @@ export default defineConfig({
   ],
 
   // https://github.com/vitest-dev/vitest
-  test: {
-    include: ['test/**/*.test.ts'],
-    environment: 'jsdom',
-  },
+  // test: {
+  //   include: ['test/**/*.test.ts'],
+  //   environment: 'jsdom',
+  // },
 
   // https://github.com/antfu/vite-ssg
   ssgOptions: {
