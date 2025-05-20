@@ -43,27 +43,27 @@
     "example:serve-ssg": "bun --bun -C examples/ssg run serve"
   },
   "peerDependencies": {
-    "vite": "^6.2.2",
-    "vue": "^3.5.13",
+    "vite": "^6.3.5",
+    "vue": "^3.5.14",
     "vue-router": "^4.5.1"
   },
   "dependencies": {
-    "debug": "^4.4.0",
-    "tinyglobby": "^0.2.12"
+    "debug": "^4.4.1",
+    "tinyglobby": "^0.2.13"
   },
   "devDependencies": {
-    "@stacksjs/docs": "^0.69.3",
+    "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
-    "@types/bun": "^1.2.5",
-    "bumpp": "^10.1.0",
-    "bun-plugin-dtsx": "^0.21.9",
+    "@types/bun": "^1.2.13",
+    "bumpp": "^10.1.1",
+    "bun-plugin-dtsx": "^0.21.12",
     "changelogen": "^0.6.1",
-    "lint-staged": "^15.5.0",
-    "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.8.2",
-    "unocss": "^66.0.0",
+    "lint-staged": "^15.5.2",
+    "simple-git-hooks": "^2.13.0",
+    "typescript": "^5.8.3",
+    "unocss": "^66.1.2",
     "vite": "^6.3.5",
-    "vite-plugin-vue-devtools": "^7.7.2"
+    "vite-plugin-vue-devtools": "^7.7.6"
   },
   "overrides": {
     "unconfig": "0.3.10"

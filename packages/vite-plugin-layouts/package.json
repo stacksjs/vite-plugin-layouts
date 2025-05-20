@@ -52,16 +52,16 @@
     "example:serve-ssg": "bun --bun -C examples/ssg run serve"
   },
   "dependencies": {
-    "debug": "^4.4.0",
-    "tinyglobby": "^0.2.12"
+    "debug": "^4.4.1",
+    "tinyglobby": "^0.2.13"
   },
   "devDependencies": {
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
-    "@types/bun": "^1.2.5",
-    "bun-plugin-dtsx": "^0.21.9",
-    "lint-staged": "^15.5.0",
-    "simple-git-hooks": "^2.11.1",
-    "typescript": "^5.8.2"
+    "@types/bun": "^1.2.13",
+    "bun-plugin-dtsx": "^0.21.12",
+    "lint-staged": "^15.5.2",
+    "simple-git-hooks": "^2.13.0",
+    "typescript": "^5.8.3"
   },
   "simple-git-hooks": {
     "pre-commit": "bunx lint-staged"
