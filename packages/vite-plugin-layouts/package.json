@@ -53,11 +53,11 @@
   },
   "dependencies": {
     "debug": "^4.4.1",
-    "tinyglobby": "^0.2.13"
+    "tinyglobby": "^0.2.14"
   },
   "devDependencies": {
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
-    "@types/bun": "^1.2.13",
+    "@types/bun": "^1.2.14",
     "bun-plugin-dtsx": "^0.21.12",
     "lint-staged": "^15.5.2",
     "simple-git-hooks": "^2.13.0",
