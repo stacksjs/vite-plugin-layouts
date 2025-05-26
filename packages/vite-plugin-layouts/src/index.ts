@@ -61,7 +61,9 @@ export default function Layout(userOptions: UserOptions = {}): Plugin {
     configResolved(_config) {
       config = _config
       layoutDirs = resolveDirs(options.layoutsDirs, config.root)
+      layoutDirs = layoutDirs.reverse()
       pagesDirs = resolveDirs(options.pagesDirs, config.root)
+      pagesDirs = pagesDirs.reverse()
     },
     configureServer({ moduleGraph, watcher, ws }) {
       watcher.add(options.layoutsDirs)
