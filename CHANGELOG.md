@@ -1,4 +1,16 @@
 
+## v0.1.5...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.5...main)
+
+### 🚀 Enhancements
+
+- Restructure ([befbc05](https://github.com/stacksjs/vite-plugin-layouts/commit/befbc05))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+
 ## v0.1.4...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.4...main)
