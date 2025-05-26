@@ -33,7 +33,7 @@ jobs:
         run: bun --bun build.ts
 
       - name: Publish to npm
-        run: cd packages/vite-plugin-layouts && bun publish --access public
+        run: bun publish --access public
         env:
           BUN_AUTH_TOKEN: ${{secrets.NPM_TOKEN}}
 
