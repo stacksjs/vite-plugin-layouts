@@ -29,9 +29,6 @@ jobs:
       - name: Install Dependencies
         run: bun install
 
-      - name: Build package
-        run: bun --bun build.ts
-
       - name: Publish to npm
         run: bun publish --access public
         env:
