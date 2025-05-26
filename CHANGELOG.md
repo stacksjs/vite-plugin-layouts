@@ -1,4 +1,16 @@
 
+## v0.1.7...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.7...main)
+
+### 🏡 Chore
+
+- Remove private ([707310d](https://github.com/stacksjs/vite-plugin-layouts/commit/707310d))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+
 ## v0.1.6...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.6...main)
