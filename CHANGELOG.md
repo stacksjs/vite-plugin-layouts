@@ -1,4 +1,16 @@
 
+## v0.1.6...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.6...main)
+
+### 🩹 Fixes
+
+- Remove build ([9065cc6](https://github.com/stacksjs/vite-plugin-layouts/commit/9065cc6))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+
 ## v0.1.5...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.5...main)

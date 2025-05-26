@@ -1,7 +1,7 @@
 {
   "name": "vite-plugin-layouts",
   "type": "module",
-  "version": "0.1.6",
+  "version": "0.1.7",
   "private": true,
   "description": "Router-based Layout Plugin for Vite.",
   "author": "Chris Breuer <chris@stacksjs.org>",
