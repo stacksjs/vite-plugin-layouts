@@ -1,4 +1,24 @@
 
+## v0.1.4...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.4...main)
+
+### 🚀 Enhancements
+
+- Adjust layout dirs ([cd114b3](https://github.com/stacksjs/vite-plugin-layouts/commit/cd114b3))
+
+### 🏡 Chore
+
+- Ensure docs build ([1470c37](https://github.com/stacksjs/vite-plugin-layouts/commit/1470c37))
+- Add stargazers and sponsors ([30673b7](https://github.com/stacksjs/vite-plugin-layouts/commit/30673b7))
+- Wip ([b7244b0](https://github.com/stacksjs/vite-plugin-layouts/commit/b7244b0))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+- Cab-mikee ([@cab-mikee](https://github.com/cab-mikee))
+- Chris ([@chrisbbreuer](https://github.com/chrisbbreuer))
+
 ## v0.1.3...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.3...main)
