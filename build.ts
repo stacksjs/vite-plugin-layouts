@@ -6,17 +6,12 @@ console.log('Building...')
 // await $`rm -rf ./dist`
 
 const result = await Bun.build({
-  entrypoints: ['./packages/vite-plugin-layouts/src/index.ts'],
+  entrypoints: ['./src/index.ts'],
   outdir: './dist',
   format: 'esm',
   target: 'node',
   minify: true,
-  // splitting: true,
-  plugins: [
-    dts({
-      root: './packages/vite-plugin-layouts',
-    }),
-  ],
+  plugins: [dts()],
 })
 
 if (!result.success) {
