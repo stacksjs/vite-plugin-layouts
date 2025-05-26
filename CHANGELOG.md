@@ -1,4 +1,16 @@
 
+## v0.1.8...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.8...main)
+
+### 🏡 Chore
+
+- Deps ([2b0b710](https://github.com/stacksjs/vite-plugin-layouts/commit/2b0b710))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+
 ## v0.1.7...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.7...main)
