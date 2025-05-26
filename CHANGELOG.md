@@ -7,6 +7,23 @@
 
 - Restructure ([befbc05](https://github.com/stacksjs/vite-plugin-layouts/commit/befbc05))
 
+### 🏡 Chore
+
+- Release v0.1.6 ([367e45e](https://github.com/stacksjs/vite-plugin-layouts/commit/367e45e))
+- Update release yml ([df8faa9](https://github.com/stacksjs/vite-plugin-layouts/commit/df8faa9))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+
+## v0.1.5...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.5...main)
+
+### 🚀 Enhancements
+
+- Restructure ([befbc05](https://github.com/stacksjs/vite-plugin-layouts/commit/befbc05))
+
 ### ❤️ Contributors
 
 - Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
