@@ -1,4 +1,16 @@
 
+## v0.1.9...main
+
+[compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.9...main)
+
+### 🏡 Chore
+
+- Only process the last element of the array ([83626d9](https://github.com/stacksjs/vite-plugin-layouts/commit/83626d9))
+
+### ❤️ Contributors
+
+- Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
+
 ## v0.1.8...main
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.8...main)
