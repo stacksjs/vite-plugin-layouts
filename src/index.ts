@@ -60,10 +60,10 @@ export default function Layout(userOptions: UserOptions = {}): Plugin {
     enforce: 'pre',
     configResolved(_config) {
       config = _config
-      layoutDirs = resolveDirs(options.layoutsDirs, config.root)
-      layoutDirs = layoutDirs.reverse()
-      pagesDirs = resolveDirs(options.pagesDirs, config.root)
-      pagesDirs = pagesDirs.reverse()
+      const resolvedLayoutDirs = resolveDirs(options.layoutsDirs, config.root)
+      layoutDirs = resolvedLayoutDirs.length > 0 ? [resolvedLayoutDirs[resolvedLayoutDirs.length - 1]] : []
+      const resolvedPagesDirs = resolveDirs(options.pagesDirs, config.root)
+      pagesDirs = resolvedPagesDirs.length > 0 ? [resolvedPagesDirs[resolvedPagesDirs.length - 1]] : []
     },
     configureServer({ moduleGraph, watcher, ws }) {
       watcher.add(options.layoutsDirs)
