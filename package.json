@@ -61,26 +61,26 @@
   },
   "peerDependencies": {
     "vite": "^4.0.0 || ^5.0.0",
-    "vue": "^3.5.14",
+    "vue": "^3.5.17",
     "vue-router": "^4.5.1"
   },
   "dependencies": {
-    "debug": "^4.3.4",
-    "fast-glob": "^3.3.2"
+    "debug": "^4.4.1",
+    "fast-glob": "^3.3.3"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
     "@stacksjs/eslint-config": "^4.8.2-beta.1",
-    "@types/bun": "^1.2.14",
-    "bumpp": "^10.1.1",
+    "@types/bun": "^1.2.18",
+    "bumpp": "^10.2.0",
     "bun-plugin-dtsx": "^0.21.12",
-    "changelogen": "^0.6.1",
+    "changelogen": "^0.6.2",
     "lint-staged": "^15.5.2",
     "simple-git-hooks": "^2.13.0",
     "typescript": "^5.8.3",
-    "unocss": "^66.1.2",
-    "vite": "^5.0.5",
-    "vite-plugin-vue-devtools": "^7.7.6"
+    "unocss": "^66.3.3",
+    "vite": "^5.4.19",
+    "vite-plugin-vue-devtools": "^7.7.7"
   },
   "overrides": {
     "unconfig": "0.3.10"
