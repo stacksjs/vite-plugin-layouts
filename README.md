@@ -136,7 +136,7 @@ export default defineConfig({
 | `layoutsDirs` | `string \| string[]` | `'src/layouts'` | Path(s) to the layouts directory. Supports globs. |
 | `pagesDirs` | `string \| string[] \| null` | `'src/pages'` | Path(s) to the pages directory. Set to null to watch all files. |
 | `defaultLayout` | `string` | `'default'` | Name of the default layout to use when none is specified. |
-| `exclude` | `string[]` | `[]` | Patterns to exclude from layout loading. Files named `__*__.vue` are automatically excluded. |
+| `exclude` | `string[]` | `[]` | Patterns to exclude from layout loading. Files named `*****.vue` are automatically excluded. |
 
 ### Advanced Configuration: ClientSideLayout
 

@@ -129,7 +129,7 @@
 
 [查看英文版](./README.md#community)
 
-## 现在可以试试!
+## 现在可以试试
 
 > Vitesse 需要 Node 版本 >=14.18
 
@@ -164,7 +164,7 @@ pnpm i # 如果你没装过 pnpm, 可以先运行: npm install -g pnpm
 
 ### 开发
 
-只需要执行以下命令就可以在 http://localhost:3333 中看到
+只需要执行以下命令就可以在 <http://localhost:3333> 中看到
 
 ```bash
 pnpm dev

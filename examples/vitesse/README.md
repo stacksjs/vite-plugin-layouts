@@ -140,7 +140,7 @@ As this template is strongly opinionated, the following provides a curated list 
 - [vitesse-solid](https://github.com/xbmlz/vitesse-solid) by [@xbmlz](https://github.com/xbmlz) - Vitesse for SolidJS, build with [`SolidStart`](https://start.solidjs.com/), includes [UnoCSS](https://github.com/unocss/unocss) and [HopeUI](https://hope-ui.com/).
 - [vue3-vant-mobile](https://github.com/easy-temps/vue3-vant-mobile) by [CharleeWa](https://github.com/CharleeWa) - Like Vitesse but without SSG/SSR, includes Vant
 
-## Try it now!
+## Try it now
 
 > Vitesse requires Node >=14.18
 
@@ -175,7 +175,7 @@ And, enjoy :)
 
 ### Development
 
-Just run and visit http://localhost:3333
+Just run and visit <http://localhost:3333>
 
 ```bash
 pnpm dev
