@@ -65,8 +65,10 @@
     "vue-router": "^4.5.1"
   },
   "dependencies": {
+    "@types/debug": "^4.1.12",
     "debug": "^4.3.4",
-    "fast-glob": "^3.3.2"
+    "fast-glob": "^3.3.2",
+    "tinyglobby": "^0.2.15"
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
