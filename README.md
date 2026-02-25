@@ -2,7 +2,7 @@
 
 [![npm version][npm-version-src]][npm-version-href]
 [![GitHub Actions][github-actions-src]][github-actions-href]
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![Commitizen friendly][commitizen-src]][commitizen-href]
 <!-- [![npm downloads][npm-downloads-src]][npm-downloads-href] -->
 <!-- [![Codecov][codecov-src]][codecov-href] -->
 
@@ -133,8 +133,8 @@ export default defineConfig({
 
 | Option | Type | Default | Description |
 |--------|------|---------|-------------|
-| `layoutsDirs` | `string \| string[]` | `'src/layouts'` | Path(s) to the layouts directory. Supports globs. |
-| `pagesDirs` | `string \| string[] \| null` | `'src/pages'` | Path(s) to the pages directory. Set to null to watch all files. |
+| `layoutsDirs` | `string or string[]` | `'src/layouts'` | Path(s) to the layouts directory. Supports globs. |
+| `pagesDirs` | `string or string[] or null` | `'src/pages'` | Path(s) to the pages directory. Set to null to watch all files. |
 | `defaultLayout` | `string` | `'default'` | Name of the default layout to use when none is specified. |
 | `exclude` | `string[]` | `[]` | Patterns to exclude from layout loading. Files named `*****.vue` are automatically excluded. |
 
@@ -273,21 +273,21 @@ bun test
 
 ## Changelog
 
-Please see our [releases](https://github.com/stacksjs/vite-plugin-layouts/releases) page for more information on what has changed recently.
+Please see our [releases][releases-href] page for more information on what has changed recently.
 
 ## Contributing
 
-Please review the [Contributing Guide](https://github.com/stacksjs/contributing) for details.
+Please review the [Contributing Guide][contributing-href] for details.
 
 ## Community
 
 For help, discussion about best practices, or any other conversation that would benefit from being searchable:
 
-[Discussions on GitHub](https://github.com/stacksjs/stacks/discussions)
+[Discussions on GitHub][discussions-href]
 
 For casual chit-chat with others using this package:
 
-[Join the Stacks Discord Server](https://discord.gg/stacksjs)
+[Join the Stacks Discord Server][discord-href]
 
 ## Postcardware
 
@@ -299,20 +299,33 @@ Our address: Stacks.js, 12665 Village Ln #2306, Playa Vista, CA 90094, United St
 
 We would like to extend our thanks to the following sponsors for funding Stacks development. If you are interested in becoming a sponsor, please reach out to us.
 
-- [JetBrains](https://www.jetbrains.com/)
-- [The Solana Foundation](https://solana.com/)
+- [JetBrains][jetbrains-href]
+- [The Solana Foundation][solana-href]
 
 ## Credits
 
-- [JohnCampionJr](https://github.com/JohnCampionJr) - Creator of original vite-plugin-vue-layouts
-- [Chris Breuer](https://github.com/chrisbbreuer)
-- [All Contributors](https://github.com/stacksjs/vite-plugin-layouts/contributors)
+- [JohnCampionJr][johncampionjr-href] - Creator of original vite-plugin-vue-layouts
+- [Chris Breuer][chris-href]
+- [All Contributors][contributors-href]
 
 ## License
 
-The MIT License (MIT). Please see [LICENSE](https://github.com/stacksjs/stacks/tree/main/LICENSE.md) for more information.
+The MIT License (MIT). Please see [LICENSE][license-href] for more information.
 
 Made with 💙
+
+[commitizen-src]: https://img.shields.io/badge/commitizen-friendly-brightgreen.svg
+[commitizen-href]: http://commitizen.github.io/cz-cli/
+[releases-href]: https://github.com/stacksjs/vite-plugin-layouts/releases
+[contributing-href]: https://github.com/stacksjs/contributing
+[discussions-href]: https://github.com/stacksjs/stacks/discussions
+[discord-href]: https://discord.gg/stacksjs
+[jetbrains-href]: https://www.jetbrains.com/
+[solana-href]: https://solana.com/
+[johncampionjr-href]: https://github.com/JohnCampionJr
+[chris-href]: https://github.com/chrisbbreuer
+[contributors-href]: https://github.com/stacksjs/vite-plugin-layouts/contributors
+[license-href]: https://github.com/stacksjs/stacks/tree/main/LICENSE.md
 
 <!-- Badges -->
 [npm-version-src]: https://img.shields.io/npm/v/vite-plugin-layouts?style=flat-square

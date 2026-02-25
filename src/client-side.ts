@@ -42,7 +42,7 @@ export async function createVirtualModuleCode(options: VirtualModuleCodeOptions)
       )}
 
       Object.entries(modules).forEach(([name, module]) => {
-          let key = name.replace("${normalizedTarget}/", '').replace('.vue', '')
+          const key = name.replace("${normalizedTarget}/", '').replace('.vue', '')
           layouts[key] = ${isSync ? 'module.default' : 'module'}
       })
 

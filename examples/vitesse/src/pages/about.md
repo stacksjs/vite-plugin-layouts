@@ -6,6 +6,6 @@ function vitesse() {
   console.log(foo)
 }
 
-```
+```text
 
 Check out the [GitHub repo](https://github.com/antfu/vitesse) for more details.

@@ -64,7 +64,7 @@
 
 - Glennmichael123 ([@glennmichael123](https://github.com/glennmichael123))
 
-## v0.1.5...main
+## v0.1.5...main (2)
 
 [compare changes](https://github.com/stacksjs/vite-plugin-layouts/compare/v0.1.5...main)
 

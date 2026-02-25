@@ -118,14 +118,14 @@
 
 由于这个模板的业务场景非常的局限，下面提供了一个精心策划的列表，列出了社区维护的具有不同偏好和功能集的衍生项目。也可以看看他们。当然也欢迎你 PR 提供自己的项目！
 
-###### 官方
+### 官方
 
 - [vitesse-lite](https://github.com/antfu/vitesse-lite) - Vitesse 的轻量版本
 - [vitesse-nuxt3](https://github.com/antfu/vitesse-nuxt3) - Vitesse 的 Nuxt 3 版本
 - [vitesse-nuxt-bridge](https://github.com/antfu/vitesse-nuxt-bridge) - Vitesse 的 Nuxt2 桥接版本
 - [vitesse-webext](https://github.com/antfu/vitesse-webext) - 开箱即用的浏览器扩展 vite 模板
 
-###### 社区
+### 社区
 
 [查看英文版](./README.md#community)
 
