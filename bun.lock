@@ -25,7 +25,7 @@
       "peerDependencies": {
         "vite": "^4.0.0 || ^5.0.0",
         "vue": "^3.5.14",
-        "vue-router": "^4.5.1",
+        "vue-router": "^5.0.3",
       },
     },
     "examples/vitesse": {
