@@ -59,7 +59,8 @@
     "example:build": "bun --bun -C examples/spa run build",
     "example:serve": "bun --bun -C examples/spa run serve",
     "example:build-ssg": "bun --bun -C examples/ssg run build",
-    "example:serve-ssg": "bun --bun -C examples/ssg run serve"
+    "example:serve-ssg": "bun --bun -C examples/ssg run serve",
+    "postinstall": "bunx git-hooks"
   },
   "peerDependencies": {
     "vite": "^4.0.0 || ^5.0.0",
@@ -82,10 +83,19 @@
     "unocss": "^66.1.2",
     "vite": "^5.0.5",
     "vite-plugin-vue-devtools": "^7.7.6",
+    "bun-git-hooks": "^0.3.1",
     "pickier": "latest"
   },
   "overrides": {
     "unconfig": "0.3.10"
+  },
+  "git-hooks": {
+    "pre-commit": {
+      "staged-lint": {
+        "*.{js,ts,json,yaml,yml,md}": "bunx --bun pickier lint --fix"
+      }
+    },
+    "commit-msg": "bunx gitlint --edit .git/COMMIT_EDITMSG"
   },
   "workspaces": [
     "examples/*",
