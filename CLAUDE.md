@@ -2,7 +2,7 @@
 
 ## About
 
-Router-based Layout Plugin for Vite.
+vite-plugin-layouts provides file-based, router-integrated layout support for Vue 3 applications using Vite. Layouts are standard Vue components stored in `/src/layouts` that wrap page content via `<router-view>`. Pages specify their layout through route meta blocks, with `default.vue` used automatically when none is specified. The plugin pairs with `vite-plugin-pages` or `unplugin-vue-router` and offers a `ClientSideLayout` mode for faster HMR.
 
 ## Linting
 
