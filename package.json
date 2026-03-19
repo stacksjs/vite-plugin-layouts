@@ -81,7 +81,7 @@
     "unocss": "^66.1.2",
     "vite": "^5.0.5",
     "vite-plugin-vue-devtools": "^7.7.6",
-    "better-dx": "^0.3.0"
+    "better-dx": "^0.2.7"
   },
   "overrides": {
     "unconfig": "0.3.10"
