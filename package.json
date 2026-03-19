@@ -75,16 +75,13 @@
   },
   "devDependencies": {
     "@stacksjs/docs": "^0.70.23",
-    "@types/bun": "^1.2.14",
     "bumpp": "^10.1.1",
-    "bun-plugin-dtsx": "0.9.9",
     "changelogen": "^0.6.1",
     "typescript": "^5.8.3",
     "unocss": "^66.1.2",
     "vite": "^5.0.5",
     "vite-plugin-vue-devtools": "^7.7.6",
-    "bun-git-hooks": "^0.3.1",
-    "pickier": "latest"
+    "better-dx": "^0.3.0"
   },
   "overrides": {
     "unconfig": "0.3.10"
