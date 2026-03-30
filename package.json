@@ -69,6 +69,7 @@
   },
   "dependencies": {
     "@types/debug": "^4.1.12",
+    "bun-plugin-dtsx": "^0.9.13",
     "debug": "^4.3.4",
     "fast-glob": "^3.3.2",
     "tinyglobby": "^0.2.15"
