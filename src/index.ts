@@ -116,7 +116,7 @@ export default function Layout(userOptions: UserOptions = {}): Plugin {
         const container: FileContainer[] = []
 
         for (const dir of layoutDirs) {
-          const layoutsDirPath = dir.substr(0, 1) === '/'
+          const layoutsDirPath = dir.startsWith('/')
             ? normalizePath(dir)
             : normalizePath(resolve(config.root, dir))
 
