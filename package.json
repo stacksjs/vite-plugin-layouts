@@ -74,7 +74,7 @@
     "tinyglobby": "^0.2.15"
   },
   "devDependencies": {
-    "better-dx": "^0.2.7",
+    "better-dx": "^0.2.15",
     "bumpp": "^10.1.1",
     "changelogen": "^0.6.1",
     "typescript": "^5.8.3",
